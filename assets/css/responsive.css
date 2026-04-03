@@ -1,0 +1,424 @@
+@media screen and (min-width: 1900px){
+
+}
+@media screen and (min-width: 1600px){
+
+
+}
+@media screen and (max-width: 1400px){
+     p, .btn-all{
+       font-size:16px;
+     }  
+}
+@media (min-width: 1200px) and (max-width: 1399px){
+  header ul.navbar-nav {
+    gap: 14px;
+  }
+   header a.nav-link {
+      font-size: 16px;
+  }
+  .good-will-content {
+    padding: 20px;
+    height: 250px;
+  }
+  .organic-img-box {
+      width: 520px;
+      height: 520px;
+  }
+  .organic-img-box figure {
+      width: 250px;
+      height: 250px;
+  }
+  .shop .thumb-product .thumbs-item {
+    width: 110px;
+    height: 110px;
+}
+}
+@media (min-width: 992px) and (max-width: 1399px){  
+    .contact-form {
+      gap:25px;
+  }
+}
+@media (max-width: 1200px){
+  .m-hide{
+    display:none;
+  } 
+  .d-hide{
+    display: block;
+  }
+  button.navbar-toggler {
+    transition: .5s all;
+    order: 3;
+  }
+  header .btn-area {
+    order: 2;
+    margin-left: auto;
+    margin-right: 15px;
+  }
+  header div#collapsibleNavbar {
+    order: 4;
+  } 
+  header ul.navbar-nav {
+        position: fixed;
+        width: 70%;
+        height: 100vh;
+        z-index: 99;
+        background-color: var(--color-black);
+        left: 0;
+        padding: 20px 20px 10px 55px;
+        top: 100px;
+        gap: 20px;
+        transform: translate(-100%)!important;
+        box-shadow: #ffffff 2px 5px 13px;
+        transition: .5s all;
+    }
+  header div#collapsibleNavbar.show ul.navbar-nav{
+    transform: translateX(0%) !important;
+        transition: .5s all;
+  }
+  header li.nav-item:hover {
+    transform: translateY(0px);
+       transition: .5s all;
+  }
+     header li.nav-item .btn-all {
+        display: inline-block;
+    }
+
+}
+@media (min-width: 992px) and (max-width: 1199px){
+  .organic-img-box {
+      width: 480px;
+      height: 480px;
+  }
+  .organic-img-box figure {
+      width: 230px;
+      height: 230px;
+  }
+  .contact-form {
+    padding: 0px;
+    gap:25px;
+}
+
+}
+@media (max-width: 991px){  
+    h1.main-heading {
+        font-size: 38px;
+        line-height: 50px;
+    }
+  .section-heading h2 {
+        font-size: 30px;
+    }
+    .hero-item {
+        height: 60vh;
+        padding: 0 10px;
+    }
+     #good_will {
+        padding: 70px 10px 0px 10px;
+        margin-top: 0px;
+    }
+    #fitness_revolution {
+        padding: 70px 10px;
+    }
+    .fit-video, .opportunities-vid {
+        margin-top: 40px;
+    }
+  .fit-content {
+      padding-right: 0;
+  }  
+  #our_partner, #global_brochure, #organic_growth, #partner_opportunities, .contact-us, #the_science, .about-us, .why-unique, .our-success, .shop{
+      padding: 70px 10px;
+  }  
+  .organic-image {
+      height: 170px;
+      gap: 15px;
+  } 
+  #organic_growth .custome-row .organic-video {
+      height: 400px;
+  }
+ 
+  #partner_opportunities .section-heading {
+      margin-bottom: 50px;
+  }
+  .opportunities-content {
+      padding-right: 0px;
+  }
+  #partner_opportunities .custom-row {
+      flex-direction: column-reverse;
+  }
+  .why-content {
+      padding: 50px 40px;
+  }
+  .why-video {
+      height: 500px;
+  }
+   .science-content {
+    padding: 15px;
+   }   
+  #our_partner .btn-area {
+      margin-top: 30px;
+  }
+  .flip-box-header {
+    font-size: 35px;
+  }
+  .flip-box .inner {
+    padding: 25px;
+  }
+  .about-us .section-heading {
+    width: 100%;
+    margin: 0 auto 50px;
+  }
+  .about-us .row.g-4 {
+    --bs-gutter-x: inherit;
+   }
+  .about-us .row.g-4{
+    --bs-gutter-y: 6rem;
+  }
+  .why-unique {
+      margin-bottom: 0;
+  }
+  header li.nav-item:hover:after{
+    display:none;
+  }
+  header ul.nav.nav-tabs {
+    position: unset;
+    width: 100%;
+    padding: 10px;
+}
+    .shop h2.shake-heading {
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 12px;
+}  
+
+  .shop .product-content .more-options {
+    grid-template-columns: repeat(4,1fr);
+    gap: 15px;
+    margin-bottom: 25px;
+}
+  }
+@media (min-width: 768px) and (max-width: 991px){
+   #organic_growth .custome-row .organic-content {
+      padding-left: 30px;
+  }
+  .organic-video {
+      padding-left: 30px;
+      height: 500px;
+  }
+  .poster-img, .poster-video {
+      height: 250px;
+  }  
+    .science-content h5.science-heading {
+      font-size: 15px;
+  }
+  .science-content p {
+      font-size: 12px;
+      line-height: 20px;
+  }
+   #organic_growth .custome-row, #partner_opportunities .custom-row {
+      margin-top: 90px;
+  }
+   .organic-img-box {
+      width: 420px;
+      height: 420px;
+      gap:15px;
+  }
+  .organic-img-box figure {
+      width: 200px;
+      height: 200px;
+  }
+  .contact-form {
+      padding: 0px 40px;
+  }
+  .world-section {
+    padding: 70px 0 270px;
+}
+  .world-section .world-img {
+    height: 500px;
+}
+  .world-section .world-img .world-content {
+    width: 80%;
+    bottom: -40%;
+}
+    .our-success .custom-row {
+    margin-top: 70px;
+} 
+
+  .shop .product-content .para p {
+    font-size: 14px;
+    line-height: 22px;
+}
+    .shop .product-content .more-options .more-item {
+    height: 100px;
+}
+   .shop .thumb-product .thumbs-item {
+    height: 100px;
+}
+  .product-content .btn-all {
+    width: 70%;
+}
+  .shop .single-product, .shop .single-product .single-product-item{
+    height:500px;
+  }
+}
+@media (max-width: 767px){
+  .opportunities-img, .opportunities-vid video, #partner_opportunities .custom-row .opportunities-img, #partner_opportunities .custom-row .opportunities-vid video{
+      width: 240px;
+      height: 240px;
+  }
+   #organic_growth .custome-row, #partner_opportunities .custom-row {
+      margin-top: 50px;
+  }
+  .good-will-content {
+      width: 100%;
+      height: 160px;
+      padding: 15px;
+  }
+  .good-will-content span {
+      font-size: 25px;
+      margin-bottom: 5px;
+  }
+  .good-will-content h4 {
+      font-size: 15px;
+  }
+  .organic-video {
+      height: 450px;
+      padding-left: 0;
+      margin-top: 50px;
+  }
+  #organic_growth .custome-row .organic-content {
+      padding-left: 0px;
+  }
+  #organic_growth .custome-row{
+    flex-direction:column-reverse;
+  }
+  #organic_growth .second-row {
+      flex-direction: inherit;
+  }
+  .organic-img-box {
+      width: 350px;
+      height: 350px;
+      gap: 15px;
+      margin-top: 50px;
+  }
+  .organic-img-box figure {
+      width: 165px;
+      height: 165px;
+  }
+  .opportunities-vid {
+      height: 400px;
+  }
+  .poster-img, .poster-video {
+      height: 200px;
+  }
+  .contact-form .form-group {
+      flex: 0 0 100%;
+  }
+  footer .footer-top ul {
+      gap: 15px;
+      flex-wrap: wrap;
+      justify-content: center;
+  }
+    footer .footer-top ul li a {
+      font-size: 18px;
+  }
+  header ul.navbar-nav {
+        padding: 20px 20px 10px 30px;
+    }
+  .hero .owl-nav {
+      text-align: right;
+      bottom: 22%;
+      width: auto;
+      right: 2rem;
+  }
+  .owl-nav button {
+      width: 30px;
+      height: 30px;
+      font-size: 16px!important;
+  }
+  .partner-item{
+    width:160px;
+    height:100px;
+    margin:0 auto;
+  }
+  .science-content .ripple-btn{
+    display:none;
+  }
+  .science-third {
+      margin-top: 40px;
+  }
+  .contact-form {
+      padding: 0px 20px;
+  }
+  #contact_us_page .contact-page-form {
+      padding: 30px 10px;
+  }
+  .why-unique .unique-box {
+    margin-bottom: 15px;
+}
+  .our-success .custom-row {
+    margin-top: 30px;
+    flex-direction: column-reverse;
+}  
+  .world-section {
+    padding: 70px 10px;
+}
+  .world-section .world-img {
+    height: auto;
+}
+  .world-section .world-img .world-content {
+    width: 100%;
+    padding: 20px;
+    transform: unset;
+    position: unset;
+  }
+   .shop .product-content .more-options {
+      grid-template-columns: repeat(3,1fr);
+
+  }
+   .product-content .btn-all {
+      width: 100%;
+  }
+  .shop .thumb-product {
+      margin: 20px 0px;
+  }
+  .shop .single-product,   .shop .single-product .single-product-item {
+      height: 400px;
+  }
+  .shop .thumb-product .thumbs-item {
+      height: 90px;
+  }
+}
+@media (max-width: 380px){
+  .hero-item{
+    height:65vh;
+  }
+  .partner-item{
+      width:130px;
+      height:80px;
+    }
+    .organic-img-box figure {
+      width: 140px;
+      height: 140px;
+  }
+    .organic-img-box {
+      width: 300px;
+      height: 300px;
+  }
+    .opportunities-img, .opportunities-vid video, #partner_opportunities .custom-row .opportunities-img, #partner_opportunities .custom-row .opportunities-vid video {
+      width: 210px;
+      height: 210px;
+  }
+    .why-content {
+      padding: 40px 20px;
+  }
+    .section-heading {
+      margin-bottom: 30px;
+  }
+    .contact-form {
+      padding: 0;
+  }
+    footer {
+      padding: 10px;
+  }  
+  
+}
